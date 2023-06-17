@@ -1,11 +1,11 @@
-About r-suncalc
-===============
+About r-suncalc-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-suncalc-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/datastorm-open/suncalc
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-suncalc-feedstock/blob/main/LICENSE.txt)
 
 Summary: Get sun position, sunlight phases (times for sunrise, sunset, dusk, etc.), moon position and lunar phase for the given location and time. Most calculations are based on the formulas given in Astronomy Answers articles about position of the sun and the planets : <https://www.aa.quae.nl/en/reken/zonpositie.html>.
 
