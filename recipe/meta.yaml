@@ -1,4 +1,4 @@
-{% set version = '0.5.1' %}
+{% set version = "0.5.3" %}
 
 {% set posix = 'm2-' if win else '' %}
 
@@ -10,10 +10,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/suncalc_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/suncalc/suncalc_{{ version }}.tar.gz
-  sha256: d7634ed72182c5d82a953dc3085b18c3d356d877eb63292c0fbd38b6b4886cf6
+  sha256: f2a85659eb90cf729beef52dc46c92dac9bf60a02338c62b60a0b1bdf851b095
 
 build:
-  number: 3
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -43,10 +43,7 @@ test:
 about:
   home: https://github.com/datastorm-open/suncalc
   license: GPL-2.0-only
-  summary: 'Get sun position, sunlight phases (times for sunrise, sunset, dusk, etc.), moon position
-    and lunar phase for the given location and time. Most calculations are based on
-    the formulas given in Astronomy Answers articles about position of the sun and the
-    planets : <https://www.aa.quae.nl/en/reken/zonpositie.html>.'
+  summary: 'Get sun position, sunlight phases (times for sunrise, sunset, dusk, etc.), moon position and lunar phase for the given location and time. Most calculations are based on the formulas given in Astronomy Answers articles about position of the sun and the planets : <https://www.aa.quae.nl/en/reken/zonpositie.html>.'
   license_family: GPL2
   license_file:
     - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
