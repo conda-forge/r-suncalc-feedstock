@@ -1,4 +1,4 @@
-{% set version = "0.5.3" %}
+{% set version = "0.5.4" %}
 
 {% set posix = 'm2-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/suncalc_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/suncalc/suncalc_{{ version }}.tar.gz
-  sha256: f2a85659eb90cf729beef52dc46c92dac9bf60a02338c62b60a0b1bdf851b095
+  sha256: dee42da5bd90996eb3a54605c0cac104747ffe24f7c224891018e0901a367894
 
 build:
   number: 0
